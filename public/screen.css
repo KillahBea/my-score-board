@@ -9,10 +9,21 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #45adf7;
 }
 
 h1 {
   text-align: center;
+}
+.team-1-add-1-button,
+.team-1-subtract-1-button,
+.add-button,
+.subtract-button {
+  background-color: #9cd100;
+  border: none;
+  padding: 4px;
+  border-radius: 4%;
+  font-weight: 800;
 }
 
 .score-area {
@@ -28,6 +39,10 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.team-1-update,
+.team-2-update {
 }
 
 .update-score .team-name {
