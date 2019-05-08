@@ -53,3 +53,14 @@ h1 {
 .update-score section {
   margin: 1rem;
 }
+
+.reset-button {
+  display: flex;
+  margin: 0% 45% 0% 45%;
+  justify-content: center;
+  background-color: #9cd100;
+  border: none;
+  padding: 4px;
+  border-radius: 4%;
+  font-weight: 800;
+}
